@@ -12,6 +12,17 @@ git status
 
 git add <fichier>
 
+## interaction avec le server distant
+
+Télécharger la base de donnée distante:
+$ git fetch origin
+
+Upload local branch to remote server:
+$ git push origin <local_branch>:<new_branch_on_server>
+
+Example:
+$ git push origin dev/smi:dev/smi
+
 ## Commiter les changements:
 
 git commit -sm "<Message>" <fichier>

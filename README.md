@@ -27,3 +27,9 @@ git commit -sm "<Message>"
 git diff
 
 
+## exploration de la base de données (dans le .git)
+
+cat refs/heads/dev/Yann
+
+
+

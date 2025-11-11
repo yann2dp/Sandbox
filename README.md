@@ -12,6 +12,18 @@ git status
 
 git add <fichier>
 
+## Commiter les changements:
+
+git commit -sm "<Message>" <fichier>
+
+ou
+
+git add <fichier>
+
+git commit -sm "<Message>"
+
 ## voir la difference entre l'espace de travail et le dernier commit:
 
 git diff
+
+
